@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> نقشة - تيشيرتات وهوديز</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">نقشة</a>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="products.html?category=tshirts">تيشيرتات</a></li>
+                <li><a href="products.html?category=hoodies">هوديز</a></li>
+                <li><a href="products.html?category=new">جديد</a></li>
+                <li><a href="products.html?category=offers">عروض</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+            <div class="cart-icon">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <span class="cart-count">0</span>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="products.html?category=tshirts">تيشيرتات</a></li>
+            <li><a href="products.html?category=hoodies">هوديز</a></li>
+            <li><a href="products.html?category=new">جديد</a></li>
+            <li><a href="products.html?category=offers">عروض</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>تيشيرتات وهوديز مخصصة</h1>
+                <p>تصميمات فريدة وعصرية تناسب جميع الأذواق</p>
+                <a href="products.html" class="btn">تسوق الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">تصفح الفئات</h2>
+            <div class="categories-grid">
+                <a href="products.html?category=tshirts" class="category-card">
+                    <img src="images/tshirt-category.jpg" alt="تيشيرتات">
+                    <h3>تيشيرتات</h3>
+                </a>
+                <a href="products.html?category=hoodies" class="category-card">
+                    <img src="images/hoodie-category.jpg" alt="هوديز">
+                    <h3>هوديز</h3>
+                </a>
+                <a href="products.html?category=new" class="category-card">
+                    <img src="images/new-category.jpg" alt="جديد">
+                    <h3>جديد</h3>
+                </a>
+                <a href="products.html?category=offers" class="category-card">
+                    <img src="images/offers-category.jpg" alt="عروض">
+                    <h3>عروض</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">منتجات مميزة</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="images/product1.jpg" alt="تيشيرت تصميم خاص">
+                    <h3>تيشيرت تصميم خاص</h3>
+                    <p class="price">75 ر.س</p>
+                    <button class="add-to-cart" data-id="1" data-name="تيشيرت تصميم خاص" data-price="75" data-image="images/product1.jpg">أضف إلى العربة</button>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="images/product2.jpg" alt="هودي شتوي دافئ">
+                    <h3>هودي شتوي دافئ</h3>
+                    <p class="price">120 ر.س</p>
+                    <button class="add-to-cart" data-id="2" data-name="هودي شتوي دافئ" data-price="120" data-image="images/product2.jpg">أضف إلى العربة</button>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="images/product3.jpg" alt="تيشيرت قطني">
+                    <h3>تيشيرت قطني</h3>
+                    <p class="price">65 ر.س</p>
+                    <button class="add-to-cart" data-id="3" data-name="تيشيرت قطني" data-price="65" data-image="images/product3.jpg">أضف إلى العربة</button>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="images/product4.jpg" alt="هودي رياضي">
+                    <h3>هودي رياضي</h3>
+                    <p class="price">110 ر.س</p>
+                    <button class="add-to-cart" data-id="4" data-name="هودي رياضي" data-price="110" data-image="images/product4.jpg">أضف إلى العربة</button>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="images/product5.jpg" alt="تيشيرت أزرق">
+                    <h3>تيشيرت أزرق</h3>
+                    <p class="price">70 ر.س</p>
+                    <button class="add-to-cart" data-id="5" data-name="تيشيرت أزرق" data-price="70" data-image="images/product5.jpg">أضف إلى العربة</button>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="images/product6.jpg" alt="هودي أسود">
+                    <h3>هودي أسود</h3>
+                    <p class="price">130 ر.س</p>
+                    <button class="add-to-cart" data-id="6" data-name="هودي أسود" data-price="130" data-image="images/product6.jpg">أضف إلى العربة</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input type="text" placeholder="الاسم الكامل" required>
+                    <input type="email" placeholder="البريد الإلكتروني" required>
+                    <input type="tel" placeholder="رقم الهاتف" required>
+                    <textarea placeholder="الرسالة" required></textarea>
+                    <button type="submit" class="btn">إرسال</button>
+                </form>
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <p><i class="fas fa-phone"></i>+201101062305</p>
+                    <p><i class="fas fa-envelope"></i>na9sha@outlook.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>القاهرة , جمهورية مصر العربية</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-snapchat"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>نقشة</h3>
+                    <p>متجرنا يقدم أفضل التيشيرتات والهوديز بتصاميم عصرية وجودة عالية.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="products.html">المنتجات</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>وسائل التواصل</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 نقشة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
