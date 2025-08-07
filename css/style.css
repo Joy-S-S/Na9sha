@@ -360,7 +360,6 @@ img {
 }
 
 .contact-info i {
-    margin-left: 10px;
     color: var(--primary-color);
 }
 
@@ -1125,4 +1124,5 @@ img {
         grid-column: 1 / -1;
         text-align: left;
     }
+
 }
