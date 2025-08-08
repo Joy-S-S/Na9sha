@@ -187,28 +187,17 @@ img {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(61, 65, 48, 0.7), rgba(61, 65, 48, 0.7)), url('../images/hero-bg.jpg');
+    background-image: url('../images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     height: 500px;
     display: flex;
     align-items: center;
     margin-top: 70px;
-    color: var(--white);
 }
 
 .hero-content {
     max-width: 600px;
-}
-
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin-bottom: 30px;
 }
 
 /* Categories Section */
@@ -1128,4 +1117,5 @@ img {
     }
 
 }
+
 
