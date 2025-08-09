@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شكراً لطلبك - نقشة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .thank-you {
+            text-align: center;
+            padding: 100px 0;
+            min-height: 60vh;
+        }
+        .thank-you-icon {
+            font-size: 80px;
+            color: var(--accent-color);
+            margin-bottom: 30px;
+        }
+        .thank-you h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        .thank-you p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+        .order-details {
+            background-color: var(--secondary-color);
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: 40px auto;
+            text-align: right;
+        }
+        .order-details h3 {
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        .order-details p {
+            margin-bottom: 10px;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 4px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+        .btn-home:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo"><img width="80px" src="images/logo.png"></a>
+            <ul class="nav-links">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="products.html?category=tshirts">تيشيرتات</a></li>
+                <li><a href="products.html?category=hoodies">هوديز</a></li>
+                <li><a href="products.html?category=new">جديد</a></li>
+                <li><a href="products.html?category=offers">عروض</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+            <div class="cart-icon">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <span class="cart-count">0</span>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Thank You Section -->
+    <section class="thank-you">
+        <div class="container">
+            <div class="thank-you-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h1>شكراً لطلبك!</h1>
+            <p>لقد تم استلام طلبك بنجاح وسنتواصل معك قريباً لتأكيد التفاصيل وتحديد موعد التسليم.</p>
+            
+            <div class="order-details">
+                <h3>معلومات الطلب</h3>
+                <p id="order-number-display">رقم الطلب: #<span id="order-num"></span></p>
+                <p>سيصلك إيميل بتفاصيل الطلب قريباً</p>
+                <p>لأي استفسارات، لا تتردد في <a href="#contact">الاتصال بنا</a></p>
+            </div>
+            
+            <a href="index.html" class="btn-home">العودة إلى الصفحة الرئيسية</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>نقشة</h3>
+                    <p>متجرنا يقدم أفضل التيشيرتات والهوديز بتصاميم عصرية وجودة عالية.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="products.html">المنتجات</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>وسائل التواصل</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61579164151735"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/na9shha/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 نقشة. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // عرض رقم الطلب من الـ URL إذا كان موجوداً
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const orderNumber = urlParams.get('order');
+            
+            if (orderNumber) {
+                document.getElementById('order-num').textContent = orderNumber;
+            } else {
+                document.getElementById('order-number-display').style.display = 'none';
+            }
+            
+            // مسح سلة التسوق عند زيارة صفحة الشكر
+            localStorage.removeItem('cart');
+            updateCartCount();
+        });
+    </script>
+</body>
+</html>

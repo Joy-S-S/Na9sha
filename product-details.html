@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>نقشة - تفاصيل المنتج </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo"><img width="80px"
+                        src="images/logo.png"></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a
+                            href="products.html?category=tshirts">تيشيرتات</a></li>
+                    <li><a href="products.html?category=hoodies">هوديز</a></li>
+                    <li><a href="products.html?category=new">جديد</a></li>
+                    <li><a href="products.html?category=offers">عروض</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="products.html?category=tshirts">تيشيرتات</a></li>
+                <li><a href="products.html?category=hoodies">هوديز</a></li>
+                <li><a href="products.html?category=new">جديد</a></li>
+                <li><a href="products.html?category=offers">عروض</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </div>
+
+        <!-- Product Details Section -->
+        <section class="product-details">
+            <div class="container">
+                <div class="product-details-content">
+                    <div class="product-gallery">
+                        <div class="main-image">
+                            <img src
+                                alt="تيشيرت تصميم خاص" id="main-image">
+                        </div>
+                        <div class="thumbnail-images">
+                            <img src
+                                alt="تيشيرت تصميم خاص" class="thumbnail active">
+                            <img src
+                                alt="تيشيرت تصميم خاص" class="thumbnail">
+                            <img src
+                                alt="تيشيرت تصميم خاص" class="thumbnail">
+                        </div>
+                        <div class="size-table-section">
+                            <h3 class="size-table-title">جدول المقاسات</h3>
+                            <div class="size-table-container">
+                                <img src="images/t-shirt-size-chart.jpg"
+                                    alt="جدول المقاسات"
+                                    loading="lazy"
+                                    class="size-table-image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h1 id="product-name"></h1>
+                        <p class="price" id="product-price"></p>
+                        <div class="product-description">
+                            <p></p>
+                        </div>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>الحجم:</label>
+                                <div class="size-options">
+                                </div>
+                            </div>
+                            <div class="option-group">
+                                <label>اللون:</label>
+                                <div class="color-options">
+                                    <!-- سيتم ملؤها ديناميكيًا حسب المقاس المحدد -->
+                                </div>
+                            </div>
+                            <div class="option-group">
+                                <label>الكمية:</label>
+                                <div class="quantity-selector">
+                                    <button
+                                        class="quantity-btn minus">-</button>
+                                    <input type="number" value="1" min="1"
+                                        class="quantity-input">
+                                    <button class="quantity-btn plus">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="add-to-cart-btn" id="add-to-cart">أضف إلى
+                            العربة</button>
+                    </div>
+                </div>
+                <div class="product-tabs">
+                    <div class="tabs">
+                        <button class="tab-btn active"
+                            data-tab="description">الوصف</button>
+                        <button class="tab-btn" data-tab="shipping">الشحن
+                            والتوصيل</button>
+                    </div>
+                    <div class="tab-content active" id="description">
+                        <h3>تفاصيل المنتج</h3>
+                        <p>تيشيرت مصنوع من قماش قطني ناعم ومريح للارتداء اليومي.
+                            الطباعة مقاومة للغسيل ولا تتأثر بالغسيل المتكرر.
+                            مناسب لجميع الفصول ويمكن ارتداؤه بمفرده أو كطبقة تحت
+                            الملابس.</p>
+                        <ul>
+                            <li>100% قطن</li>
+                            <li>متوفر بمقاسات من S إلى XXL</li>
+                            <li>طباعة مباشرة عالية الجودة</li>
+                            <li>غسيل آمن في الغسالة</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="shipping">
+                        <h3>الشحن والتوصيل</h3>
+                        <p>نقدم الشحن لجميع أنحاء جمهورية مصر العربية خلال
+                            3-5 أيام عمل.</p>
+                        <p>للاستفسارات عن الشحن أو لمتابعة الطلب، يمكنك التواصل
+                            معنا عبر صفحة "تواصل معنا".</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Products -->
+        <section class="related-products">
+            <div class="container">
+                <h2 class="section-title">منتجات ذات صلة</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="images/product2.jpg" alt="هودي شتوي دافئ">
+                        <h3>هودي شتوي دافئ</h3>
+                        <p class="price">120 ر.س</p>
+                        <button class="add-to-cart" data-id="2"
+                            data-name="هودي شتوي دافئ" data-price="120"
+                            data-image="images/product2.jpg">أضف إلى
+                            العربة</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/product3.jpg" alt="تيشيرت قطني">
+                        <h3>تيشيرت قطني</h3>
+                        <p class="price">65 ر.س</p>
+                        <button class="add-to-cart" data-id="3"
+                            data-name="تيشيرت قطني" data-price="65"
+                            data-image="images/product3.jpg">أضف إلى
+                            العربة</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/product5.jpg" alt="تيشيرت أزرق">
+                        <h3>تيشيرت أزرق</h3>
+                        <p class="price">70 ر.س</p>
+                        <button class="add-to-cart" data-id="5"
+                            data-name="تيشيرت أزرق" data-price="70"
+                            data-image="images/product5.jpg">أضف إلى
+                            العربة</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>ملابس</h3>
+                        <p>متجرنا يقدم أفضل التيشيرتات والهوديز بتصاميم عصرية
+                            وجودة عالية.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>روابط سريعة</h3>
+                        <ul>
+                            <li><a href="index.html">الرئيسية</a></li>
+                            <li><a href="products.html">المنتجات</a></li>
+                            <li><a href="#contact">تواصل معنا</a></li>
+                            <li><a href="#">سياسة الخصوصية</a></li>
+                            <li><a href="#">شروط الاستخدام</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>وسائل التواصل</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-snapchat"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2023 ملابس. جميع الحقوق محفوظة.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+        <script src="js/cart.js"></script>
+        <script src="js/products.js"></script>
+        <!-- يجب أن يكون قبل product-details.js -->
+        <script src="js/product-details.js"></script>
+    </body>
+</html>
