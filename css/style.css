@@ -348,7 +348,7 @@ img {
 
 /* Contact Section */
 .contact {
-    padding: 60px 0;
+    padding: 20px 0;
     background-color: var(--secondary-color);
 }
 
@@ -429,7 +429,7 @@ img {
 .footer {
     background-color: var(--primary-color);
     color: var(--white);
-    padding: 60px 0 20px;
+    padding: 20px 0 20px;
 }
 
 .footer-content {
@@ -1203,5 +1203,6 @@ img {
     }
 
 }
+
 
 
