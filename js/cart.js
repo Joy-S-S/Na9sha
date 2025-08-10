@@ -90,15 +90,16 @@ document.addEventListener('DOMContentLoaded', function () {
 // Add item to cart
 function addToCart(id, name, price, image, quantity = 1, size = '', color = '') {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-    // Check if item already exists in cart
-    const existingItem = cart.find(item => item.id === id);
+    
+    const existingItem = cart.find(item => 
+        item.id === id && 
+        item.size === size && 
+        item.color === color
+    );
 
     if (existingItem) {
-        // Update quantity if item exists
         existingItem.quantity += quantity;
     } else {
-        // Add new item to cart
         cart.push({
             id,
             name,
@@ -110,10 +111,7 @@ function addToCart(id, name, price, image, quantity = 1, size = '', color = '') 
         });
     }
 
-    // Save to localStorage
     localStorage.setItem('cart', JSON.stringify(cart));
-
-    // Update cart count
     updateCartCount();
 }
 
