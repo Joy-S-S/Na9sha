@@ -291,30 +291,30 @@
 },
     {
     "id": 11,
-    "name": "CRISTIANO RONALDO | GOAT 7 - Hoodie | هودي رونالدو",
-    "price": 450,
-    "image": "../Products/11/1.jpeg",
+    "name": "Jujutsu Kaisen - Classic Hoodie",
+    "price": 500,
+    "image": "Products/11/1.jpeg",
     "category": "hoodies",
     "isNew": true,
     "isOffer": false,
-    "description": "هودي راوند بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "description": "هودي بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
     "details": [
         "100% قطن مصري",
         "طباعة مباشرة عالية الجودة",
         "غسيل آمن في الغسالة"
     ],
     "altImages": [
-        "../Products/11/2.jpeg",
-        "../Products/11/3.jpeg",
-        "../Products/11/4.jpeg",
-        "../Products/11/5.jpeg",
-        "../Products/11/6.jpeg"
+        "Products/11/2.jpeg",
+        "Products/11/3.jpeg",
+        "Products/11/4.jpeg"
     ],
     "availableOptions": {
-        "S": ["أسود", "أبيض"],
-        "M": ["أحمر", "أزرق"],
-        "L": ["أسود", "أحمر", "أزرق"],
-        "XL": ["أبيض"]
+        "S": ["بيبي بلو"],
+        "M": ["بيبي بلو","مينت جرين"],
+        "L": ["بيبي بلو"],
+        "XL": ["بيبي بلو"],
+        "XXL": ["بيبي بلو"],
+        "XXXL": ["بيبي بلو"]
     }
 },
     {
@@ -1253,3 +1253,4 @@
     }
 
 ]
+
