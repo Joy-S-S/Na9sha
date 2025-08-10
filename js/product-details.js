@@ -110,9 +110,6 @@ function loadProductDetails(product) {
             const productId = `${product.name.replace(/\s+/g, '-').toLowerCase()}-${selectedSize}-${selectedColor}`;
             
             addToCart(productId, productName, productPrice, productImage, quantity, selectedSize, selectedColor);
-            
-            // Show confirmation message
-            alert('تمت إضافة المنتج إلى العربة');
         });
     }
 
@@ -185,4 +182,5 @@ function initImageGallery() {
             mainImage.alt = this.alt;
         });
     });
+
 }
