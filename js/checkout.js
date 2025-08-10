@@ -66,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const checkoutForm = document.getElementById('checkout-form');
     if (checkoutForm) {
         checkoutForm.addEventListener('submit', function (e) {
+            // التحقق من الحقول المطلوبة أولاً
             const fullName = document.getElementById('full-name').value;
             const phone = document.getElementById('phone').value;
             const email = document.getElementById('email').value;
@@ -78,28 +79,49 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
 
-            const orderNumber = generateOrderNumber(); // استدعاء واحد فقط
+            // إنشاء رقم الطلب
+            const orderNumber = generateOrderNumber();
             document.getElementById('order-number').textContent = orderNumber;
 
-            const formData = {
-                fullName,
-                phone,
-                email,
-                address,
-                city,
-                notes: document.getElementById('notes').value,
-                paymentMethod: document.querySelector('input[name="payment-method"]:checked').value,
-                orderItems: JSON.parse(localStorage.getItem('cart')) || [],
-                orderTotal: document.getElementById('order-total').textContent,
-                orderNumber,
-                shippingCost: cities[city] || 0
-            };
+            // إعداد تفاصيل الطلب من السلة
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            let orderDetails = '';
 
-            console.log('Order Data:', formData);
+            cart.forEach(item => {
+                orderDetails += `
+                - المنتج: ${item.name}
+                السعر: ${item.price} ج.م
+                الكمية: ${item.quantity}
+                الحجم: ${item.size || 'غير محدد'}
+                اللون: ${item.color || 'غير محدد'}
+                -------------------------
+            `;
+            });
 
+            // إضافة تفاصيل الطلب كحقل مخفي
+            const orderDetailsField = document.createElement('textarea');
+            orderDetailsField.style.display = 'none';
+            orderDetailsField.name = 'order_details';
+            orderDetailsField.textContent = orderDetails;
+            checkoutForm.appendChild(orderDetailsField);
+
+            // إضافة رقم الطلب كحقل مخفي
+            const orderNumberField = document.createElement('input');
+            orderNumberField.type = 'hidden';
+            orderNumberField.name = 'order_number';
+            orderNumberField.value = orderNumber;
+            checkoutForm.appendChild(orderNumberField);
+
+            // إضافة المجموع الكلي كحقل مخفي
+            const totalField = document.createElement('input');
+            totalField.type = 'hidden';
+            totalField.name = 'order_total';
+            totalField.value = document.getElementById('order-total').textContent;
+            checkoutForm.appendChild(totalField);
+
+            // مسح السلة بعد إتمام الطلب (اختياري)
             localStorage.removeItem('cart');
-            updateCartSummary();
-            // مفيش preventDefault هنا، فالفورم هيكمل ويتبعت
+            updateCartCount();
         });
     }
 
