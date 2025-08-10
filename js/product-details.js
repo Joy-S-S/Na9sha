@@ -133,7 +133,8 @@ function updateColorOptions(availableColors) {
         "أبيض": "#ffffff",
         "أحمر": "#a01e1e",
         "أزرق": "#1e50a0",
-        "أخضر": "#1e6a1e"
+        "أخضر": "#1e6a1e",
+        "بيبي بلو": "#89CFF0"
     };
 
     availableColors.forEach(colorName => {
@@ -184,3 +185,4 @@ function initImageGallery() {
     });
 
 }
+
