@@ -81,7 +81,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // إنشاء رقم الطلب
             const orderNumber = generateOrderNumber();
-            document.getElementById('order-number').textContent = orderNumber;
+            const nextUrl = new URL("https://joy-s-s.github.io/Na9sha/thank-you.html");
+            nextUrl.searchParams.set('order', orderNumber);
+            document.querySelector('input[name="_next"]').value = nextUrl.toString();
 
             // إعداد تفاصيل الطلب من السلة
             const cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -202,3 +204,4 @@ function updateCartSummary() {
 function generateOrderNumber() {
     return 'ORD-' + Math.floor(Math.random() * 1000000);
 }
+
