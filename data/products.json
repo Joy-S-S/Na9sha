@@ -1,0 +1,622 @@
+[
+    {
+    "id": 11,
+    "name": "Jujutsu Kaisen - Classic Hoodie",
+    "price": 500,
+    "image": "Products/11/1.jpeg",
+    "category": "hoodies",
+    "isNew": true,
+    "isOffer": false,
+    "description": "هودي بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/11/2.jpeg",
+        "Products/11/3.jpeg",
+        "Products/11/4.jpeg"
+    ],
+    "availableOptions": {
+        "S": ["بيبي بلو"],
+        "M": ["بيبي بلو","مينت جرين"],
+        "L": ["بيبي بلو"],
+        "XL": ["بيبي بلو"],
+        "XXL": ["بيبي بلو"],
+        "XXXL": ["بيبي بلو"]
+    }
+},
+    {
+    "id": 12,
+    "name": "ديث نوت - Classic Hoodie",
+    "price": 500,
+    "image": "Products/12/1.jpeg",
+    "category": "hoodies",
+    "isNew": true,
+    "isOffer": false,
+    "description": "هودي راوند بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/12/2.jpeg",
+        "Products/12/3.jpeg",
+        "Products/12/4.jpeg"
+    ],
+    "availableOptions": {
+        "S": ["بيبي بلو"],
+        "M": ["بيبي بلو","مينت جرين"],
+        "L": ["بيبي بلو"],
+        "XL": ["بيبي بلو"],
+        "XXL": ["بيبي بلو"],
+        "XXXL": ["بيبي بلو"]
+    }
+},
+    {
+    "id": 13,
+    "name": "انا مش بني ادم انا مهندس - Classic Hoodie",
+    "price": 430,
+    "image": "Products/13/1.jpeg",
+    "category": "hoodies",
+    "isNew": true,
+    "isOffer": false,
+    "description": "هودي بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/13/2.jpeg",
+        "Products/13/3.jpeg",
+        "Products/13/4.jpeg",
+        "Products/13/5.jpeg",
+        "Products/13/6.jpeg"
+    ],
+    "availableOptions": {
+        "S": ["بيبي بلو"],
+        "M": ["بيبي بلو","مينت جرين"],
+        "L": ["بيبي بلو"],
+        "XL": ["بيبي بلو"],
+        "XXL": ["بيبي بلو"],
+        "XXXL": ["بيبي بلو"]
+    }
+},
+    {
+    "id": 14,
+    "name": "ايتاتشي - Classic Hoodie",
+    "price": 450,
+    "image": "Products/14/1.jpeg",
+    "category": "hoodies",
+    "isNew": true,
+    "isOffer": false,
+    "description": "هودي راوند بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/14/2.jpeg",
+        "Products/14/3.jpeg",
+        "Products/14/4.jpeg",
+        "Products/14/5.jpeg",
+        "Products/14/6.jpeg"
+    ],
+    "availableOptions": {
+        "S": ["بيبي بلو"],
+        "M": ["بيبي بلو","مينت جرين"],
+        "L": ["بيبي بلو"],
+        "XL": ["بيبي بلو","أبيض"],
+        "XXL": ["بيبي بلو","أبيض"],
+        "XXXL": ["بيبي بلو"]
+    }
+},{
+    "id": 15,
+    "name": "Anime - هجوم العمالقة - Classic Hoodie",
+    "price": 425,
+    "image": "Products/15/1.jpeg",
+    "category": "hoodies",
+    "isNew": true,
+    "isOffer": false,
+    "description": "هودي راوند بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/15/2.jpeg",
+        "Products/15/3.jpeg",
+        "Products/15/4.jpeg",
+        "Products/15/5.jpeg",
+        "Products/15/6.jpeg"
+    ],
+    "availableOptions": {
+        "S": ["بيبي بلو"],
+        "M": ["بيبي بلو","مينت جرين"],
+        "L": ["بيبي بلو","مينت جرين"],
+        "XL": ["بيبي بلو"],
+        "XXL": ["بيبي بلو","أبيض"],
+        "XXXL": ["بيبي بلو","أبيض"]
+    }
+},{
+    "id": 16,
+    "name": "Anime - وان بيس : لوفي - Classic Hoodie",
+    "price": 430,
+    "image": "Products/16/1.jpeg",
+    "category": "hoodies",
+    "isNew": true,
+    "isOffer": false,
+    "description": "هودي راوند بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/16/2.jpeg"
+    ],
+    "availableOptions": {
+        "XXL": ["أبيض"],
+        "XXXL": ["أبيض"]
+    }
+},
+    {
+    "id": 21,
+    "name": "ورد - Tote bag",
+    "price": 160,
+    "image": "Products/21/1.jpeg",
+    "category": "tote-bags",
+    "isNew": true,
+    "isOffer": false,
+    "description": "توتي باج أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×40 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/21/2.jpeg",
+        "Products/21/3.jpeg",
+        "Products/21/4.jpeg"
+    ],
+    "availableOptions": {
+        "32*40cm": ["أسود", "بيج"]
+    }
+},
+    {
+    "id": 22,
+    "name": "ستيتش ولد كيوت - Tote bag",
+    "price": 160,
+    "image": "Products/22/1.jpeg",
+    "category": "tote-bags",
+    "isNew": true,
+    "isOffer": false,
+    "description": "توتي باج أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×40 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/22/2.jpeg",
+        "Products/22/3.jpeg",
+        "Products/22/4.jpeg"
+    ],
+    "availableOptions": {
+        "32*40cm": ["أسود", "بيج"]
+    }
+},
+    {
+    "id": 23,
+    "name": "توتي باج star - Tote bag",
+    "price": 160,
+    "image": "Products/23/1.jpeg",
+    "category": "tote-bags",
+    "isNew": true,
+    "isOffer": false,
+    "description": "توتي باج أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×40 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/23/2.jpeg"
+    ],
+    "availableOptions": {
+        "32*40cm": ["أسود"]
+    }
+},
+    {
+    "id": 24,
+    "name": "We are never old for disney - Tote bag",
+    "price": 225,
+    "image": "Products/24/1.jpeg",
+    "category": "tote-bags",
+    "isNew": true,
+    "isOffer": false,
+    "description": "توتي باج أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×40 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/24/2.jpeg",
+        "Products/24/3.jpeg",
+        "Products/24/4.jpeg"
+    ],
+    "availableOptions": {
+        "32*40cm": ["أسود", "بيج"]
+    }
+},
+    {
+    "id": 25,
+    "name": "وَعْيٌ - Tote bag",
+    "price": 160,
+    "image": "Products/25/1.jpeg",
+    "category": "tote-bags",
+    "isNew": true,
+    "isOffer": false,
+    "description": "توتي باج أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×40 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/25/2.jpeg",
+        "Products/25/3.jpeg",
+        "Products/25/4.jpeg"
+    ],
+    "availableOptions": {
+        "32*40cm": ["أسود", "بيج"]
+    }
+},
+    {
+    "id": 26,
+    "name": "sunflower - Tote bag",
+    "price": 160,
+    "image": "Products/26/1.jpeg",
+    "category": "tote-bags",
+    "isNew": true,
+    "isOffer": false,
+    "description": "توتي باج أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×40 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/26/2.jpeg"
+    ],
+    "availableOptions": {
+        "32*40cm": ["أسود"]
+    }
+},
+    {
+    "id": 27,
+    "name": "No rain no flowers - Tote bag",
+    "price": 160,
+    "image": "Products/27/1.jpeg",
+    "category": "tote-bags",
+    "isNew": true,
+    "isOffer": false,
+    "description": "توتي باج أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×40 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/27/2.jpeg",
+        "Products/27/3.jpeg",
+        "Products/27/4.jpeg"
+    ],
+    "availableOptions": {
+        "32*40cm": ["أسود", "بيج"]
+    }
+},
+    {
+    "id": 28,
+    "name": "Butterfly - Tote bag",
+    "price": 160,
+    "image": "Products/28/1.jpeg",
+    "category": "tote-bags",
+    "isNew": true,
+    "isOffer": false,
+    "description": "توتي باج أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×40 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/28/2.jpeg",
+        "Products/28/3.jpeg",
+        "Products/28/4.jpeg"
+    ],
+    "availableOptions": {
+        "32*40cm": ["بيج"]
+    }
+},
+    {
+    "id": 50,
+    "name": "Elsa Frozen - Pouch",
+    "price": 110,
+    "image": "Products/50/1.jpeg",
+    "category": "Pouches",
+    "isNew": true,
+    "isOffer": false,
+    "description": " بوك أنيق وعملي مصنوع من خامات عالية الجودة صديقة للبيئة، مقاسه 12×22 سم، مناسب للاستخدام اليومي ومتين ليدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/50/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},
+    {
+    "id": 51,
+    "name": "Cute and Fluffy Stitch - Pouch",
+    "price": 110,
+    "image": "Products/51/1.jpeg",
+    "category": "Pouches",
+    "isNew": true,
+    "isOffer": false,
+    "description": " بوك أنيق وعملي مصنوع من خامات عالية الجودة صديقة للبيئة، مقاسه 12×22 سم، مناسب للاستخدام اليومي ومتين ليدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/51/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},
+    {
+    "id": 52,
+    "name": "اعتزل ضجيج العالم ☕ - Pouch",
+    "price": 80,
+    "image": "Products/52/1.jpeg",
+    "category": "Pouches",
+    "isNew": true,
+    "isOffer": false,
+    "description": " بوك أنيق وعملي مصنوع من خامات عالية الجودة صديقة للبيئة، مقاسه 12×22 سم، مناسب للاستخدام اليومي ومتين ليدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/52/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},
+    {
+    "id": 53,
+    "name": "Butterfly - Pouch",
+    "price": 100,
+    "image": "Products/53/1.jpeg",
+    "category": "Pouches",
+    "isNew": true,
+    "isOffer": false,
+    "description": " بوك أنيق وعملي مصنوع من خامات عالية الجودة صديقة للبيئة، مقاسه 12×22 سم، مناسب للاستخدام اليومي ومتين ليدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/53/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},
+    {
+    "id": 54,
+    "name": "Eren Yeager - Pouch",
+    "price": 110,
+    "image": "Products/54/1.jpeg",
+    "category": "Pouches",
+    "isNew": true,
+    "isOffer": false,
+    "description": " بوك أنيق وعملي مصنوع من خامات عالية الجودة صديقة للبيئة، مقاسه 12×22 سم، مناسب للاستخدام اليومي ومتين ليدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/54/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},
+    {
+    "id": 55,
+    "name": "حِكْمَةٌ - Pouch",
+    "price": 80,
+    "image": "Products/55/1.jpeg",
+    "category": "Pouches",
+    "isNew": true,
+    "isOffer": false,
+    "description": " بوك أنيق وعملي مصنوع من خامات عالية الجودة صديقة للبيئة، مقاسه 12×22 سم، مناسب للاستخدام اليومي ومتين ليدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/55/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},
+    {
+    "id": 56,
+    "name": "قلب عنكبوت - Pouch",
+    "price": 80,
+    "image": "Products/56/1.jpeg",
+    "category": "Pouches",
+    "isNew": true,
+    "isOffer": false,
+    "description": " بوك أنيق وعملي مصنوع من خامات عالية الجودة صديقة للبيئة، مقاسه 12×22 سم، مناسب للاستخدام اليومي ومتين ليدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/56/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},
+    {
+    "id": 57,
+    "name": "صَبْرٌ - Pouch",
+    "price": 110,
+    "image": "Products/57/1.jpeg",
+    "category": "Pouches",
+    "isNew": true,
+    "isOffer": false,
+    "description": " بوك أنيق وعملي مصنوع من خامات عالية الجودة صديقة للبيئة، مقاسه 12×22 سم، مناسب للاستخدام اليومي ومتين ليدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/57/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},{
+    "id": 41,
+    "name": "كيلوا - Long sleeve Tshirt",
+    "price": 370,
+    "image": "Products/41/1.jpeg",
+    "category": "long-sleeves",
+    "isNew": true,
+    "isOffer": false,
+    "description": "تيشيرت راوند بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/41/2.jpeg",
+        "Products/41/3.jpeg",
+        "Products/41/4.jpeg",
+        "Products/41/5.jpeg",
+        "Products/41/6.jpeg"
+    ],
+    "availableOptions": {
+        "M": ["أبيض","أحمر","رصاصي"],
+        "L": ["أحمر","رصاصي"],
+        "XL": ["أبيض","أحمر"],
+        "XXL": ["أحمر","أبيض"],
+        "XXXL": ["أبيض", "أحمر", "رصاصي"]
+    }
+},{
+    "id": 42,
+    "name": "Peace - Long sleeve Tshirt",
+    "price": 350,
+    "image": "Products/42/1.jpeg",
+    "category": "long-sleeves",
+    "isNew": true,
+    "isOffer": false,
+    "description": "تيشيرت راوند بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/42/2.jpeg",
+        "Products/42/3.jpeg",
+        "Products/42/4.jpeg",
+        "Products/42/5.jpeg",
+        "Products/42/6.jpeg"
+    ],
+    "availableOptions": {
+        "M": ["أبيض","أحمر","رصاصي"],
+        "L": ["أحمر","رصاصي"],
+        "XL": ["أبيض","أحمر"],
+        "XXL": ["أحمر"],
+        "XXXL": ["أبيض", "أحمر", "رصاصي"]
+    }
+},{
+    "id": 43,
+    "name": "لوفي - Long sleeve Tshirt",
+    "price": 370,
+    "image": "Products/43/1.jpeg",
+    "category": "long-sleeves",
+    "isNew": true,
+    "isOffer": false,
+    "description": "تيشيرت راوند بريميوم للجنسين قطن مصري 100%، طباعة DTF يابانية عالية الجودة لا تزول، تقفيل ممتاز. اختر مقاسك من الجدول.",
+    "details": [
+        "100% قطن مصري",
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/43/2.jpeg",
+        "Products/43/3.jpeg",
+        "Products/43/4.jpeg"
+    ],
+    "availableOptions": {
+        "M": ["أبيض","رصاصي"],
+        "L": ["رصاصي"],
+        "XL": ["أبيض"],
+        "XXXL": ["أبيض", "رصاصي"]
+    }
+},{
+    "id": 62,
+    "name": "انمي قاتل الشياطين Kimetsu no Yaiba",
+    "price": 170,
+    "image": "Products/62/1.jpeg",
+    "category": "backpacks",
+    "isNew": true,
+    "isOffer": false,
+    "description": " شنطه ضهر أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×46 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/62/2.jpeg"
+    ],
+    "availableOptions": {
+        "12*22cm": ["بيج"]
+    }
+},{
+    "id": 61,
+    "name": "Stitch | ستيتش - Drawstring Bag",
+    "price": 175,
+    "image": "Products/61/1.jpeg",
+    "category": "backpacks",
+    "isNew": true,
+    "isOffer": false,
+    "description": " شنطه ضهر أنيقة وعملية مصنوعة من خامات عالية الجودة صديقة للبيئة، مقاسها 32×46 سم، مناسبة للاستخدام اليومي ومتينة لتدوم لسنوات.",
+    "details": [
+        "طباعة مباشرة عالية الجودة",
+        "غسيل آمن في الغسالة"
+    ],
+    "altImages": [
+        "Products/61/2.jpeg"
+    ],
+    "availableOptions": {
+        "32*46cm": ["بيج"]
+    }
+}
+
+
+]
+
